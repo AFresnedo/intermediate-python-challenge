@@ -13,7 +13,7 @@ class Animal:
             print('I\'m staving!')
         elif (self.energy > 0 and self.energy < 50):
             print('I\'m getting hungry!')
-        elif (self.energy < 100 and self.energy >= 50):
+        elif (self.energy <= 100 and self.energy >= 50):
             print('I\'m happily full.')
         else:
             print('I\'m feeling stuffed!')
